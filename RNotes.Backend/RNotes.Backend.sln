@@ -7,6 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{91A909DE-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNotes.Domain", "RNotes.Domain\RNotes.Domain.csproj", "{B5982882-395E-4909-92EC-FA57275927C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3D1B57C3-A4E9-4145-A138-D834B245640E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{51D0A0BF-C8B7-42A1-A876-69CD6F8D8F11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F4A89C9F-F15E-42F2-B870-95CD2132E982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNotes.Application", "RNotes.Application\RNotes.Application.csproj", "{FBB65B3B-8510-4A78-AD66-D1AA3CE6C5C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNotes.Persistence", "RNotes.Persistence\RNotes.Persistence.csproj", "{1AB5FF00-24D0-442E-9981-9641E9425082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNotes.WebApi", "RNotes.WebApi\RNotes.WebApi.csproj", "{472DE6E7-EFE5-476B-B9F6-6A40C203DA34}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -16,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B5982882-395E-4909-92EC-FA57275927C0} = {91A909DE-BF40-4FAF-A346-774E45C217FF}
+		{FBB65B3B-8510-4A78-AD66-D1AA3CE6C5C6} = {91A909DE-BF40-4FAF-A346-774E45C217FF}
+		{1AB5FF00-24D0-442E-9981-9641E9425082} = {51D0A0BF-C8B7-42A1-A876-69CD6F8D8F11}
+		{472DE6E7-EFE5-476B-B9F6-6A40C203DA34} = {3D1B57C3-A4E9-4145-A138-D834B245640E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
